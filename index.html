@@ -1,0 +1,1169 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>FACIG Awâllé | Danse africaine à Rosheim et alentours</title>
+
+    <meta name="description" content="FACIG Awâllé : danse africaine à Rosheim et alentours, cours hebdomadaires, stages, animations et actions solidaires à Guéménédou, en Côte d'Ivoire.">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #30251f;
+            background: #faf7f1;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #241b17;
+            color: white;
+            padding: 18px 5%;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav {
+            max-width: 1200px;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        .logo-text {
+            font-size: 1.25rem;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 18px;
+            font-size: 0.95rem;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            min-height: 78vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 80px 20px;
+            background:
+                linear-gradient(
+                    rgba(35, 27, 22, 0.72),
+                    rgba(35, 27, 22, 0.72)
+                );
+            color: white;
+        }
+
+        .hero-content {
+            max-width: 900px;
+        }
+
+        .hero h1 {
+            font-size: clamp(2.5rem, 7vw, 5rem);
+            margin: 0 0 15px;
+            letter-spacing: 2px;
+        }
+
+        .hero h2 {
+            font-size: clamp(1.3rem, 3vw, 2rem);
+            margin: 0 0 25px;
+            font-weight: normal;
+        }
+
+        .hero p {
+            max-width: 700px;
+            margin: 0 auto 30px;
+            font-size: 1.1rem;
+        }
+
+        .buttons {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 13px 22px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            background: #d98b35;
+            color: white;
+        }
+
+        .button.secondary {
+            background: transparent;
+            border: 2px solid white;
+        }
+
+        section {
+            max-width: 1100px;
+            margin: auto;
+            padding: 80px 25px;
+        }
+
+        section h2 {
+            font-size: 2.3rem;
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+
+        section h3 {
+            font-size: 1.5rem;
+            margin-top: 35px;
+        }
+
+        .intro {
+            font-size: 1.15rem;
+            max-width: 850px;
+        }
+
+        .highlight {
+            margin-top: 35px;
+            padding: 30px;
+            background: white;
+            border-left: 6px solid #d98b35;
+            border-radius: 8px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.06);
+        }
+
+        .highlight h3 {
+            margin-top: 0;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+            margin-top: 35px;
+        }
+
+        .card {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.06);
+        }
+
+        .card h3 {
+            margin-top: 0;
+        }
+
+        .dark-section {
+            background: #30241e;
+            color: white;
+            max-width: none;
+        }
+
+        .dark-section > div {
+            max-width: 1100px;
+            margin: auto;
+            padding: 80px 25px;
+        }
+
+        .project {
+            background: rgba(255,255,255,0.08);
+            padding: 25px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        footer {
+            background: #1e1714;
+            color: white;
+            text-align: center;
+            padding: 35px 20px;
+        }
+
+        footer a {
+            color: white;
+        }
+
+        .small {
+            font-size: 0.9rem;
+            opacity: 0.85;
+        }
+
+        @media (max-width: 750px) {
+
+            header {
+                position: static;
+            }
+
+            nav {
+                flex-direction: column;
+            }
+
+            nav a {
+                margin: 0 7px;
+            }
+
+            .hero {
+                min-height: 70vh;
+            }
+
+            section {
+                padding: 60px 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <nav>
+        <div class="logo-text">FACIG AWÂLLÉ</div>
+
+        <div>
+            <a href="#association">Association</a>
+            <a href="#cours">Cours</a>
+            <a href="#stages">Stages</a>
+            <a href="#guemen edou">Guéménédou</a>
+            <a href="#soutenir">Soutenir</a>
+        </div>
+    </nav>
+</header>
+
+
+<main>
+
+    <!-- ACCUEIL -->
+
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <h1>FACIG AWÂLLÉ</h1>
+
+            <h2>Danse africaine à Rosheim et alentours</h2>
+
+            <p>
+                Une association entre danse, musique, transmission,
+                culture et solidarité.
+            </p>
+
+            <div class="buttons">
+
+                <a class="button" href="#cours">
+                    Découvrir les cours 2026-2027
+                </a>
+
+                <a class="button secondary" href="#stages">
+                    Stages & animations
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ASSOCIATION -->
+
+    <section id="association">
+
+        <h2>Une association entre l'Alsace et la Côte d'Ivoire</h2>
+
+        <p class="intro">
+            FACIG Awâllé est une association qui fait vivre la danse
+            et la musique africaines tout en soutenant des actions
+            solidaires à Guéménédou, en Côte d'Ivoire.
+        </p>
+
+        <p>
+            L'histoire de l'association est intimement liée à ce village
+            et aux liens construits au fil des années entre l'Alsace
+            et la Côte d'Ivoire.
+        </p>
+
+        <p>
+            La danse, la musique et les percussions occupent une place
+            importante dans cette histoire : elles sont à la fois
+            des pratiques artistiques, des moyens de transmission
+            et des occasions de créer du lien.
+        </p>
+
+        <div class="highlight">
+
+            <h3>Une histoire qui continue</h3>
+
+            <p>
+                FACIG Awâllé poursuit aujourd'hui ses activités autour
+                de la danse africaine, des stages et des animations,
+                tout en continuant à soutenir des projets concrets
+                à Guéménédou.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- COURS -->
+
+    <section id="cours">
+
+        <h2>Cours de danse africaine à Rosheim</h2>
+
+        <p class="intro">
+            Vous souhaitez découvrir ou pratiquer la danse africaine
+            à Rosheim et dans les environs ?
+        </p>
+
+        <div class="highlight">
+
+            <h3>Saison 2026-2027</h3>
+
+            <p>
+                <strong>Lundi — 20h00 à 21h15</strong>
+            </p>
+
+            <p>
+                Cours de danse africaine traditionnelle accompagné
+                de percussions.
+            </p>
+
+            <p>
+                <strong>Danse :</strong> Cyrille Zouzoua<br>
+                <strong>Percussions :</strong> Moussa Ira
+            </p>
+
+            <p>
+                32 cours • de septembre à juin
+            </p>
+
+            <p>
+                <strong>250 € pour l'année</strong><br>
+                Cours + adhésion à FACIG Awâllé
+            </p>
+
+            <a class="button" href="#">
+                S'inscrire aux cours
+            </a>
+
+        </div>
+
+        <h3>Danse, musique et transmission</h3>
+
+        <p>
+            Les cours sont accompagnés de percussions live et
+            permettent de découvrir la danse africaine traditionnelle
+            dans une démarche de transmission et de partage.
+        </p>
+
+    </section>
+
+
+    <!-- STAGES -->
+
+    <section id="stages">
+
+        <h2>Stages & animations</h2>
+
+        <p class="intro">
+            En complément des cours hebdomadaires, FACIG Awâllé
+            propose ponctuellement des stages et des animations
+            autour de la danse, de la musique et des cultures africaines.
+        </p>
+
+        <div class="highlight">
+
+            <h3>💃 Stage de danse africaine — 24 octobre 2026</h3>
+
+            <p>
+                <strong>Rosheim</strong>
+            </p>
+
+            <p>
+                Une après-midi placée sous le signe de la danse,
+                du rythme et du partage !
+            </p>
+
+            <p>
+                Cyrille et Achile vous préparent trois heures de danse
+                africaine accompagnées de percussions live, avec
+                deux univers à découvrir.
+            </p>
+
+            <p>
+                <strong>
+                    Le programme détaillé et les modalités d'inscription
+                    seront publiés prochainement.
+                </strong>
+            </p>
+
+            <p>
+                👉 Restez attentifs pour ne rien manquer !
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- GUEMENEDOU -->
+
+    <section class="dark-section" id="guemen edou">
+
+        <div>
+
+            <h2>Guéménédou, au cœur de notre histoire</h2>
+
+            <p class="intro">
+                L'action solidaire de FACIG Awâllé est liée au village
+                de Guéménédou, en Côte d'Ivoire.
+            </p>
+
+            <p>
+                Au fil des années, l'association a contribué à différents
+                projets destinés à améliorer les conditions de vie
+                et les équipements de la communauté.
+            </p>
+
+            <div class="project">
+
+                <h3>🏫 L'école</h3>
+
+                <p>
+                    FACIG Awâllé a notamment participé au financement
+                    d'équipements et de réalisations destinés à l'école
+                    du village.
+                </p>
+
+            </div>
+
+            <div class="project">
+
+                <h3>🏥 Le dispensaire</h3>
+
+                <p>
+                    L'association soutient également le dispensaire
+                    et les personnes qui y travaillent.
+                </p>
+
+            </div>
+
+            <div class="project">
+
+                <h3>💧 Des projets qui continuent</h3>
+
+                <p>
+                    En 2026, l'association prévoit notamment de financer
+                    un nouveau bureau pour l'infirmier ainsi que
+                    l'adduction d'eau permettant l'utilisation des
+                    toilettes de l'école construites grâce au soutien
+                    de l'association.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- SOUTENIR -->
+
+    <section id="soutenir">
+
+        <h2>Soutenir FACIG Awâllé</h2>
+
+        <p class="intro">
+            Vous souhaitez soutenir l'association et contribuer
+            à ses actions ?
+        </p>
+
+        <div class="cards">
+
+            <div class="card">
+
+                <h3>❤️ Adhérer</h3>
+
+                <p>
+                    Rejoignez FACIG Awâllé et participez à la vie
+                    de l'association.
+                </p>
+
+                <a class="button" href="#">
+                    Adhérer en ligne
+                </a>
+
+            </div>
+
+
+            <div class="card">
+
+                <h3>💃 Participer</h3>
+
+                <p>
+                    Participer aux cours, stages et animations permet
+                    également de faire vivre l'association.
+                </p>
+
+            </div>
+
+
+            <div class="card">
+
+                <h3>🤝 Soutenir nos actions</h3>
+
+                <p>
+                    Vos soutiens contribuent aux projets menés
+                    avec la communauté de Guéménédou.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTACT -->
+
+    <section id="contact">
+
+        <h2>Nous contacter</h2>
+
+        <p class="intro">
+            Une question sur les cours, les stages ou les actions
+            de l'association ?
+        </p>
+
+        <p>
+            Retrouvez prochainement ici toutes les informations
+            pour nous contacter et nous suivre.
+        </p>
+
+    </section>
+
+</main>
+
+
+<footer>
+
+    <p>
+        <strong>FACIG Awâllé</strong>
+    </p>
+
+    <p>
+        Danse africaine à Rosheim et alentours
+    </p>
+
+    <p class="small">
+        Danse • Musique • Transmission • Solidarité
+    </p>
+
+</footer>
+
+</body>
+</html><!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>FACIG Awâllé | Danse africaine à Rosheim et alentours</title>
+
+    <meta name="description" content="FACIG Awâllé : danse africaine à Rosheim et alentours, cours hebdomadaires, stages, animations et actions solidaires à Guéménédou, en Côte d'Ivoire.">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #30251f;
+            background: #faf7f1;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #241b17;
+            color: white;
+            padding: 18px 5%;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav {
+            max-width: 1200px;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        .logo-text {
+            font-size: 1.25rem;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 18px;
+            font-size: 0.95rem;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            min-height: 78vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 80px 20px;
+            background:
+                linear-gradient(
+                    rgba(35, 27, 22, 0.72),
+                    rgba(35, 27, 22, 0.72)
+                );
+            color: white;
+        }
+
+        .hero-content {
+            max-width: 900px;
+        }
+
+        .hero h1 {
+            font-size: clamp(2.5rem, 7vw, 5rem);
+            margin: 0 0 15px;
+            letter-spacing: 2px;
+        }
+
+        .hero h2 {
+            font-size: clamp(1.3rem, 3vw, 2rem);
+            margin: 0 0 25px;
+            font-weight: normal;
+        }
+
+        .hero p {
+            max-width: 700px;
+            margin: 0 auto 30px;
+            font-size: 1.1rem;
+        }
+
+        .buttons {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 13px 22px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            background: #d98b35;
+            color: white;
+        }
+
+        .button.secondary {
+            background: transparent;
+            border: 2px solid white;
+        }
+
+        section {
+            max-width: 1100px;
+            margin: auto;
+            padding: 80px 25px;
+        }
+
+        section h2 {
+            font-size: 2.3rem;
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+
+        section h3 {
+            font-size: 1.5rem;
+            margin-top: 35px;
+        }
+
+        .intro {
+            font-size: 1.15rem;
+            max-width: 850px;
+        }
+
+        .highlight {
+            margin-top: 35px;
+            padding: 30px;
+            background: white;
+            border-left: 6px solid #d98b35;
+            border-radius: 8px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.06);
+        }
+
+        .highlight h3 {
+            margin-top: 0;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+            margin-top: 35px;
+        }
+
+        .card {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.06);
+        }
+
+        .card h3 {
+            margin-top: 0;
+        }
+
+        .dark-section {
+            background: #30241e;
+            color: white;
+            max-width: none;
+        }
+
+        .dark-section > div {
+            max-width: 1100px;
+            margin: auto;
+            padding: 80px 25px;
+        }
+
+        .project {
+            background: rgba(255,255,255,0.08);
+            padding: 25px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        footer {
+            background: #1e1714;
+            color: white;
+            text-align: center;
+            padding: 35px 20px;
+        }
+
+        footer a {
+            color: white;
+        }
+
+        .small {
+            font-size: 0.9rem;
+            opacity: 0.85;
+        }
+
+        @media (max-width: 750px) {
+
+            header {
+                position: static;
+            }
+
+            nav {
+                flex-direction: column;
+            }
+
+            nav a {
+                margin: 0 7px;
+            }
+
+            .hero {
+                min-height: 70vh;
+            }
+
+            section {
+                padding: 60px 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <nav>
+        <div class="logo-text">FACIG AWÂLLÉ</div>
+
+        <div>
+            <a href="#association">Association</a>
+            <a href="#cours">Cours</a>
+            <a href="#stages">Stages</a>
+            <a href="#guemen edou">Guéménédou</a>
+            <a href="#soutenir">Soutenir</a>
+        </div>
+    </nav>
+</header>
+
+
+<main>
+
+    <!-- ACCUEIL -->
+
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <h1>FACIG AWÂLLÉ</h1>
+
+            <h2>Danse africaine à Rosheim et alentours</h2>
+
+            <p>
+                Une association entre danse, musique, transmission,
+                culture et solidarité.
+            </p>
+
+            <div class="buttons">
+
+                <a class="button" href="#cours">
+                    Découvrir les cours 2026-2027
+                </a>
+
+                <a class="button secondary" href="#stages">
+                    Stages & animations
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ASSOCIATION -->
+
+    <section id="association">
+
+        <h2>Une association entre l'Alsace et la Côte d'Ivoire</h2>
+
+        <p class="intro">
+            FACIG Awâllé est une association qui fait vivre la danse
+            et la musique africaines tout en soutenant des actions
+            solidaires à Guéménédou, en Côte d'Ivoire.
+        </p>
+
+        <p>
+            L'histoire de l'association est intimement liée à ce village
+            et aux liens construits au fil des années entre l'Alsace
+            et la Côte d'Ivoire.
+        </p>
+
+        <p>
+            La danse, la musique et les percussions occupent une place
+            importante dans cette histoire : elles sont à la fois
+            des pratiques artistiques, des moyens de transmission
+            et des occasions de créer du lien.
+        </p>
+
+        <div class="highlight">
+
+            <h3>Une histoire qui continue</h3>
+
+            <p>
+                FACIG Awâllé poursuit aujourd'hui ses activités autour
+                de la danse africaine, des stages et des animations,
+                tout en continuant à soutenir des projets concrets
+                à Guéménédou.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- COURS -->
+
+    <section id="cours">
+
+        <h2>Cours de danse africaine à Rosheim</h2>
+
+        <p class="intro">
+            Vous souhaitez découvrir ou pratiquer la danse africaine
+            à Rosheim et dans les environs ?
+        </p>
+
+        <div class="highlight">
+
+            <h3>Saison 2026-2027</h3>
+
+            <p>
+                <strong>Lundi — 20h00 à 21h15</strong>
+            </p>
+
+            <p>
+                Cours de danse africaine traditionnelle accompagné
+                de percussions.
+            </p>
+
+            <p>
+                <strong>Danse :</strong> Cyrille Zouzoua<br>
+                <strong>Percussions :</strong> Moussa Ira
+            </p>
+
+            <p>
+                32 cours • de septembre à juin
+            </p>
+
+            <p>
+                <strong>250 € pour l'année</strong><br>
+                Cours + adhésion à FACIG Awâllé
+            </p>
+
+            <a class="button" href="#">
+                S'inscrire aux cours
+            </a>
+
+        </div>
+
+        <h3>Danse, musique et transmission</h3>
+
+        <p>
+            Les cours sont accompagnés de percussions live et
+            permettent de découvrir la danse africaine traditionnelle
+            dans une démarche de transmission et de partage.
+        </p>
+
+    </section>
+
+
+    <!-- STAGES -->
+
+    <section id="stages">
+
+        <h2>Stages & animations</h2>
+
+        <p class="intro">
+            En complément des cours hebdomadaires, FACIG Awâllé
+            propose ponctuellement des stages et des animations
+            autour de la danse, de la musique et des cultures africaines.
+        </p>
+
+        <div class="highlight">
+
+            <h3>💃 Stage de danse africaine — 24 octobre 2026</h3>
+
+            <p>
+                <strong>Rosheim</strong>
+            </p>
+
+            <p>
+                Une après-midi placée sous le signe de la danse,
+                du rythme et du partage !
+            </p>
+
+            <p>
+                Cyrille et Achile vous préparent trois heures de danse
+                africaine accompagnées de percussions live, avec
+                deux univers à découvrir.
+            </p>
+
+            <p>
+                <strong>
+                    Le programme détaillé et les modalités d'inscription
+                    seront publiés prochainement.
+                </strong>
+            </p>
+
+            <p>
+                👉 Restez attentifs pour ne rien manquer !
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- GUEMENEDOU -->
+
+    <section class="dark-section" id="guemen edou">
+
+        <div>
+
+            <h2>Guéménédou, au cœur de notre histoire</h2>
+
+            <p class="intro">
+                L'action solidaire de FACIG Awâllé est liée au village
+                de Guéménédou, en Côte d'Ivoire.
+            </p>
+
+            <p>
+                Au fil des années, l'association a contribué à différents
+                projets destinés à améliorer les conditions de vie
+                et les équipements de la communauté.
+            </p>
+
+            <div class="project">
+
+                <h3>🏫 L'école</h3>
+
+                <p>
+                    FACIG Awâllé a notamment participé au financement
+                    d'équipements et de réalisations destinés à l'école
+                    du village.
+                </p>
+
+            </div>
+
+            <div class="project">
+
+                <h3>🏥 Le dispensaire</h3>
+
+                <p>
+                    L'association soutient également le dispensaire
+                    et les personnes qui y travaillent.
+                </p>
+
+            </div>
+
+            <div class="project">
+
+                <h3>💧 Des projets qui continuent</h3>
+
+                <p>
+                    En 2026, l'association prévoit notamment de financer
+                    un nouveau bureau pour l'infirmier ainsi que
+                    l'adduction d'eau permettant l'utilisation des
+                    toilettes de l'école construites grâce au soutien
+                    de l'association.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- SOUTENIR -->
+
+    <section id="soutenir">
+
+        <h2>Soutenir FACIG Awâllé</h2>
+
+        <p class="intro">
+            Vous souhaitez soutenir l'association et contribuer
+            à ses actions ?
+        </p>
+
+        <div class="cards">
+
+            <div class="card">
+
+                <h3>❤️ Adhérer</h3>
+
+                <p>
+                    Rejoignez FACIG Awâllé et participez à la vie
+                    de l'association.
+                </p>
+
+                <a class="button" href="#">
+                    Adhérer en ligne
+                </a>
+
+            </div>
+
+
+            <div class="card">
+
+                <h3>💃 Participer</h3>
+
+                <p>
+                    Participer aux cours, stages et animations permet
+                    également de faire vivre l'association.
+                </p>
+
+            </div>
+
+
+            <div class="card">
+
+                <h3>🤝 Soutenir nos actions</h3>
+
+                <p>
+                    Vos soutiens contribuent aux projets menés
+                    avec la communauté de Guéménédou.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTACT -->
+
+    <section id="contact">
+
+        <h2>Nous contacter</h2>
+
+        <p class="intro">
+            Une question sur les cours, les stages ou les actions
+            de l'association ?
+        </p>
+
+        <p>
+            Retrouvez prochainement ici toutes les informations
+            pour nous contacter et nous suivre.
+        </p>
+
+    </section>
+
+</main>
+
+
+<footer>
+
+    <p>
+        <strong>FACIG Awâllé</strong>
+    </p>
+
+    <p>
+        Danse africaine à Rosheim et alentours
+    </p>
+
+    <p class="small">
+        Danse • Musique • Transmission • Solidarité
+    </p>
+
+</footer>
+
+</body>
+</html>
