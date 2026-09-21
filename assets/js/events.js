@@ -1,1 +1,1 @@
-window.FACIG_EVENTS=[{date:'24 octobre 2026',title:'Stage de danse africaine',place:'Rosheim',text:'Un nouveau temps de danse et de partage avec FACIG Awâllé.',url:'#'}];
+window.FACIG_EVENTS=[{date:'24 octobre 2026',title:'Masterclass danse & percussions',place:'Rosheim — Halle du marché',text:'16h–17h30 : Doum danse avec Cyrille Zouzoua • 17h30–19h : danse traditionnelle avec Achil Gadié. Musique live avec Moussa Ira & Ada Diarra. 25 € un stage, 40 € les deux, location de doum 5 €. Places limitées.',image:'assets/images/flyer stage 24 octobre .jpeg',url:'#'}];
